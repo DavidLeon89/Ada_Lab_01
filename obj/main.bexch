@@ -1,0 +1,23 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+E:\Download\Ada_Lab_01b\Ada_Lab_01\default.gpr
+20180910205130
+[BOUND OBJECT FILES]
+E:\Download\Ada_Lab_01b\Ada_Lab_01\obj\example_1.o
+E:\Download\Ada_Lab_01b\Ada_Lab_01\obj\client_1.o
+E:\Download\Ada_Lab_01b\Ada_Lab_01\obj\example_2.o
+E:\Download\Ada_Lab_01b\Ada_Lab_01\obj\client_2.o
+E:\Download\Ada_Lab_01b\Ada_Lab_01\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LE:\Download\Ada_Lab_01b\Ada_Lab_01\obj\
+-LE:\Download\Ada_Lab_01b\Ada_Lab_01\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

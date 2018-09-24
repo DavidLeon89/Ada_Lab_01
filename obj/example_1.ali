@@ -1,0 +1,107 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -g
+A -g
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U example_1%b		example_1.adb		2882daee NE OO PK
+Z interfaces%s		interfac.ads		interfac.ali
+
+U example_1%s		example_1.ads		29d77a64 EE OO PK
+
+D example_1.ads		20180910173400 29d77a64 example_1%s
+D example_1.adb		20180910164302 0155a08a example_1%b
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D system.ads		20180524051738 32a08138 system%s
+X 1 example_1.ads
+9K9*Example_1 149l5 149e14 2|1b14 60l5 60t14
+15i4*V1{natural} 16r34 2|8r41
+16i4*V2{positive} 17r24
+17i4*V3{integer} 18r33
+18f4*V4{float}
+19a4*V5{string}
+20e4*V6{character}
+26I9*My_Int_Type<integer> 30r8 30r26
+27I12*My_Int_Subtype{integer} 31r8 31r26
+30i4*A{26I9}
+31i4*B{27I12}
+33M9*Mod_Int
+36E9*Week_Day 37e57 40r25 40r37 41r25 41r37 42r16 42r28 44r34 45r23 45r35
+. 62r15 107r27 146r32 2|45r32
+36n22*Monday{36E9} 2|48r15
+36n30*Tuesday{36E9} 62r42 2|51r15
+36n39*Wednesday{36E9}
+37n22*Thursday{36E9}
+37n32*Friday{36E9} 44r48 67r50 74r40 2|51r26
+37n40*Saturday{36E9}
+37n50*Sunday{36E9}
+40e4*First_Day{36E9} 42r43
+41e4*Last_Day{36E9}
+42e4*Next_Day{36E9}
+44i4*Internal_Value{natural} 45r49
+45e4*Last_Working_Day{36E9}
+48E9*Month_Type 49e77 60r15
+48n24*January{48E9} 60r42
+48n33*February{48E9} 67r34
+48n43*March{48E9} 72r40
+48n50*April{48E9}
+48n57*May{48E9}
+48n62*June{48E9}
+49n24*July{48E9}
+49n30*August{48E9}
+49n38*September{48E9}
+49n49*October{48E9}
+49n58*November{48E9}
+49n68*December{48E9}
+58R9*Date 63e14 67r22 71r22 107r40 112r53
+59i7*Day{integer} 71m31
+60e7*Month{48E9} 72m31
+61i7*Year{integer} 73m31
+62e7*WDay{36E9} 74m31
+67r4*Default_Date{58R9} 118r56
+71r4*First_Day_March{58R9} 118r29
+79R9*Rec_1 82e14 94r13
+80a7*Name{string}
+81i7*Name_Length{natural}
+89R9*Rec_2 89d16 92e14 95r13
+89i16*Max_Length{natural} 90r34
+90a7*Name{string}
+91i7*Name_Length{natural}
+94r4*Name_1{79R9}
+95r4*Name_2{89R9}
+100A9*Table_1(natural)<integer> 114r17
+101A9*Table_2(natural)<integer> 115r17
+107A9*Table_3(58R9)<36E9> 116r17
+111I9*T_Index<integer> 112r27
+112A9*Table_4(58R9)<111I9> 118r17
+114a4*My_Table_1{100A9}
+115a4*My_Table_2{101A9}
+116a4*My_Table_3{107A9}
+118a4*My_Table_4{112A9}
+125V13*Absolute_Value{integer} 125>29 2|14b13 21l8 21t22
+125i29 X{integer} 2|14b29 16r10 17r17 19r18
+130V13*Next_Value{integer} 130>29
+130i29 X{integer} 130r64
+134U14*Set 134<19 134>39 2|36b14 39l8 39t11
+134i19 X{integer} 2|36b19 38m7
+134i39 Value{integer} 2|36b36 38r12
+135U14*Add 135=19 135>39 2|27b14 30l8 30t11
+135i19 X{integer} 2|27b19 29m7 29r12
+135i39 Value{integer} 2|27b39 29r16
+145A9*Text<string>(character)<integer> 146r49 2|45r49
+146V13*Day_Message{145A9} 146>26 2|45b13 58l8 58t19
+146e26 Day{36E9} 2|45b26 47r12
+X 2 example_1.adb
+7i4 Max{positive} 8r32
+8i4 Initial_Value{positive}
+

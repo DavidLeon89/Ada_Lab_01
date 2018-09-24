@@ -1,0 +1,72 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A -g
+A -g
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U client_2%b		client_2.adb		967f6266 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W example_2%s		example_2.adb		example_2.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20180524051736 76789da1 ada%s
+D a-except.ads		20180524051736 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051736 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051736 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051738 491b781d ada.tags%s
+D a-textio.ads		20180524051738 881db35a ada.text_io%s
+D a-unccon.ads		20180524051738 0e9b276f ada.unchecked_conversion%s
+D client_2.adb		20180910172014 7915ecf8 client_2%b
+D example_2.ads		20180910171512 67773dc4 example_2%s
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D i-cstrea.ads		20180524051736 e53d8b8e interfaces.c_streams%s
+D system.ads		20180524051738 32a08138 system%s
+D s-crtl.ads		20180524051736 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051738 54135002 system.exception_table%s
+D s-ficobl.ads		20180524051738 078245e4 system.file_control_block%s
+D s-imgint.ads		20180524051736 02dbe0c2 system.img_int%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051736 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051738 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051738 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051736 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051736 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051738 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 8|1r6 1r23
+X 6 a-textio.ads
+49K13*Text_IO 471e16 8|1w10 1r27
+263U14*Put_Line 8|12s4 15s4 18s4 21s4
+X 8 client_2.adb
+4U11*Client_2 4b11 22l5 22t13
+5i4 My_Number{9|11I9} 10m11 10r11 11m15 11r15 12r26 14m15 14r15 15r26
+6r4 My_Date{9|21R9} 17m4 18r25
+7r4 My_Rec{9|36R9} 20m15 20r15 21r25
+X 9 example_2.ads
+5K9*Example_2 8|2w6 2r21 9|67e14
+11I9*Number<integer> 8|5r16
+13U14*Reset 8|10s4
+14U14*Increment 8|11s4 14s4
+15V14*To_Integer{integer} 8|12s14 15s14
+21R9*Date 8|6r16 9|54e14
+22r4*Default_Date{21R9} 8|17r15
+30V13*To_String{string} 8|18s14
+36R9*Rec 8|7r16 9|65e14
+38U14*Save_Name 8|20s4
+39V13*To_String{string} 8|21s14
+

@@ -1,0 +1,78 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -g
+A -g
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_SECONDARY_STACK
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+
+U example_2%b		example_2.adb		5f45d779 NE OO PK
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_5%s	s-conca5.adb		s-conca5.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U example_2%s		example_2.ads		67773dc4 EE NE OO PK
+
+D example_2.ads		20180910171512 67773dc4 example_2%s
+D example_2.adb		20180910172136 3832eabd example_2%b
+D interfac.ads		20180524051736 5ab55268 interfaces%s
+D system.ads		20180524051738 32a08138 system%s
+D s-conca2.ads		20180524051736 02a0d7d0 system.concat_2%s
+D s-conca5.ads		20180524051736 875e432e system.concat_5%s
+D s-imenne.ads		20180524051736 614c06c0 system.img_enum_new%s
+D s-imgint.ads		20180524051736 02dbe0c2 system.img_int%s
+D s-parame.ads		20180524051738 48ec542b system.parameters%s
+D s-secsta.ads		20180524051738 20bbe636 system.secondary_stack%s
+D s-stoele.ads		20180524051738 2dc34a04 system.storage_elements%s
+X 1 example_2.ads
+5K9*Example_2 46E9 67l5 67e14 2|1b14 63l5 63t14
+11I9*Number<integer> 13r37 14r37 15r30 46c9 2|7r32 12r37 14r16 17r29
+13U14*Reset 13=26 2|7b14 10l8 10t13
+13i26 N{11I9} 2|7b21 9m7
+14U14*Increment 14=26 14>45 2|12b14 15l8 15t17
+14i26 N{11I9} 2|12b26 14m7 14r12
+14i45 Value{integer} 2|12b45 14r24
+15V14*To_Integer{integer} 15>26 2|17b13 20l8 20t18
+15i26 N{11I9} 2|17b25 19r23
+21R9*Date 22r28 24r29 27r22 28r22 30r28 50c9 54e14 56r31 58r22 2|26r29 32r22
+. 33r22 38r28
+22r4*Default_Date{21R9} 28r30 56c4 2|28r14 33r30
+24V13*Get_Date{21R9} 2|26b13 29l8 29t16
+26U14*Set_Date 27=7 28>7 2|31b14 36l8 36t16
+27r7 D{21R9} 2|32b7 35m7
+28r7 Value{21R9} 2|33b7 35r12
+30V13*To_String{string} 30>24 2|38b13 41l8 41t17
+30r24 D{21R9} 2|38b24 40r14 40r33 40r53
+36R9*Rec 36d14 38r36 39r29 62c9 65e14 2|47r36 58r28
+36i14 Max_Length{natural} 62r14 63r34 2|49r27 53r42 54r29
+38U14*Save_Name 38=25 38>41 2|47b14 56l8 56t17
+38r25 R{36R9} 2|47b25 49r25 50m10 51m10 53m10 53r40 54m10 54r27
+38a41 Name{string} 2|47b41 49r10 50r23 50r39 51r27 53r20 53r26
+39V13*To_String{string} 39>25 2|58b13 61l8 61t17
+39r25 R{36R9} 2|58b24 60r26 60r39
+48E9 Month_Type 48e67 52r15
+48n24 January{48E9} 52r42 56r43
+48n33 February{48E9}
+48n43 March{48E9} 59r40
+48n50 April{48E9}
+48n57 May{48E9}
+48n62 June{48E9}
+51i7*Day{integer} 58m31 2|40r55
+52e7*Month{48E9} 59m31 2|40r35
+53i7*Year{integer} 60m31 2|40r16
+58r4 First_Day_March{21R9}
+63a7*Name{string} 2|50m12 53m12 60r28
+64i7*Name_Length{natural} 2|51m12 54m12 60r41
+
